@@ -1,0 +1,17 @@
+.list__item{
+    display: flex;
+    gap: 2rem;
+    font-size: calc(.4rem + 1vw);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.item__delete{
+    align-self: flex-end;
+    cursor: pointer;
+}
+.TodoItem-p--complete {
+    text-decoration: line-through;
+  }
+.item__check{
+    cursor: pointer;
+}  
